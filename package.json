@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config --mode production",
-    "dev": "just-ssr --webpack-config webpack.config --open"
+    "dev": "just-ssr --webpack-config webpack.config --create-app ./src/create-app --open"
   },
   "author": "Hiroki Osame <hiroki.osame@gmail.com>",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "vue": "^2.6.12",
     "vue-just-ssr": "^1.0.0-alpha.1",
     "vue-loader": "^15.9.3",
+    "vue-router": "^3.3.4",
     "vue-server-renderer": "^2.6.12",
     "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.2",
