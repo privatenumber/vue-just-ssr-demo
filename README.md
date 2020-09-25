@@ -1,6 +1,6 @@
-# vue-just-ssr-demo
+# vue-just-ssr-demo w/ Vue Router
 
-Demo of [vue-just-ssr](https://github.com/privatenumber/vue-just-ssr).
+Demo of [vue-just-ssr](https://github.com/privatenumber/vue-just-ssr) and [Vue Router](https://router.vuejs.org).
 
 ## Commands
 - `npm run build` Build `src` and produce distribution
