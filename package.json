@@ -9,9 +9,11 @@
   },
   "author": "Hiroki Osame <hiroki.osame@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
   "devDependencies": {
     "css-loader": "^4.3.0",
-    "vue": "^2.6.12",
     "vue-just-ssr": "^1.0.0-alpha.2",
     "vue-loader": "^15.9.3",
     "vue-server-renderer": "^2.6.12",
