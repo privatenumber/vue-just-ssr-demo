@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config --mode production",
-    "dev": "just-ssr --webpack-config webpack.config --open"
+    "dev": "just-ssr --webpack-config webpack.config --template ./template.html --open"
   },
   "author": "Hiroki Osame <hiroki.osame@gmail.com>",
   "license": "MIT",
