@@ -12,3 +12,11 @@
 		</router-link>
 	</div>
 </template>
+
+<script>
+export default {
+	metaInfo: {
+		title: 'About',
+	},
+};
+</script>

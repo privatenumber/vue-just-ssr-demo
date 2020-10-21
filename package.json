@@ -10,7 +10,8 @@
   "author": "Hiroki Osame <hiroki.osame@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-meta": "^2.4.0"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
