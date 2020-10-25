@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
     "vue-just-ssr": "github:privatenumber/vue-just-ssr",
     "vue-loader": "^15.9.3",
     "vue-router": "^3.3.4",

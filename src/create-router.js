@@ -5,9 +5,11 @@ import VueMeta from 'vue-meta';
 Vue.use(Router);
 Vue.use(VueMeta);
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 function createRouter() {
 	return new Router({
-		mode: 'history',
+		mode: isProduction ? 'hash' : 'history',
 		routes: [
 			{
 				path: '/',
