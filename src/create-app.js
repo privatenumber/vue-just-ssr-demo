@@ -9,7 +9,7 @@ function createApp(App) {
 		router,
 	});
 
-	return { app, router };
+	return { app };
 }
 
 export default createApp;

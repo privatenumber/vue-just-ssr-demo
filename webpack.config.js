@@ -1,5 +1,6 @@
 const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader');
+const { JustSsrPlugin } = require('vue-just-ssr');
 
 module.exports = {
 	mode: 'development',
@@ -29,6 +30,9 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new VueLoaderPlugin()
+		new VueLoaderPlugin(),
+		new JustSsrPlugin({
+			createAppPath: './src/create-app',
+		}),
 	]
 };
